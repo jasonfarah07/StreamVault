@@ -402,23 +402,23 @@ img { max-width: 100%; display: block; }
 .back-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  color: var(--text-muted);
-  padding: 0.5rem 1.1rem;
-  border-radius: 8px;
-  font-size: 0.88rem;
-  font-weight: 600;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: rgba(107,63,255,0.1);
+  border: 1px solid rgba(107,63,255,0.25);
+  color: var(--accent);
+  border-radius: 10px;
+  font-size: 1.1rem;
   font-family: inherit;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .back-btn:hover {
+  background: rgba(107,63,255,0.2);
   border-color: var(--primary);
-  color: var(--accent);
-  transform: translateX(-2px);
+  transform: translateX(-3px);
 }
 
 a.service-tile { color: inherit; }
